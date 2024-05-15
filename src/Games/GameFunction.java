@@ -5,7 +5,9 @@ esto para hacer el instanciado automatico un toque más facil.
 
  */
 
+import statistics.Stat;
+
 public interface GameFunction {
     public void start();
-    public void getStats();
+    public Stat getStats();
 }
