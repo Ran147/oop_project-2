@@ -40,8 +40,7 @@ public class MainFrame extends JFrame {
         } catch (java.beans.PropertyVetoException e) {
             e.printStackTrace();
         }
-        GameLibraryFrame.addGame("Snake");
-        GameLibraryFrame.addGame("Tetris");
+
 
     }
 }

@@ -12,6 +12,15 @@ import java.util.Scanner;
 // actualizacion 18/5/2024
 // Hay que ver como hacer la pantalla 2 y que esta pase a la pantalla 3, o sea hay que hacer
 // nuevo frame con la info del juego y que sea jugable.
+//Ver logica de cierre de frames y los botones de volver al menu
+/*
+Actualizacion 18/5/2024 -- 16:59
+--Ya corre todos los juegos bien, la pantalla 1, pantalla 2 y 3 sirven correctamente
+-- Todavia no se pueden ver estadisticas.
+-- Los juegos ocupan opciones para reiniciar juego
+-- Implementar patrones
+-- Implementar excepciones.
+ */
 public class Main {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
