@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64594146-aab9-42dc-9836-5811d1ca7f15" name="Changes" comment="Modulo de instanciado de clases durante runtime">
-      <change afterPath="$PROJECT_DIR$/src/GUI/MyFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Games/Buscaminas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statistics/Stat.java" afterDir="false" />
+    <list default="true" id="64594146-aab9-42dc-9836-5811d1ca7f15" name="Changes" comment="Agregado, juego de busca minas">
+      <change afterPath="$PROJECT_DIR$/src/Games/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Games/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Games/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Games/Tetris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Global_Frame/GameLibraryFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Global_Frame/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Games/GameFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Games/GameFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Games/Minecraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Games/Minecraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Games/Buscaminas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Games/Buscaminas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Randy__branch&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Randy__branch",
+    "last_opened_file_path": "C:/Users/sirok/Desktop/Java projects/OOP_Project2"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +75,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715548682736</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Agregado, juego de busca minas">
+      <option name="closed" value="true" />
+      <created>1715808925694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715808925694</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <MESSAGE value="Modulo de instanciado de clases durante runtime" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modulo de instanciado de clases durante runtime" />
+    <MESSAGE value="Agregado, juego de busca minas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregado, juego de busca minas" />
   </component>
 </project>

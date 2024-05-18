@@ -11,6 +11,7 @@ import java.util.Random;
 public class Buscaminas extends JInternalFrame implements GameFunction {
     private Stat stats;
     private JButton[][] buttons;
+    private String name = "Buscaminas";
     private boolean[][] mines;
     private int rows = 10;
     private int cols = 10;
@@ -18,10 +19,9 @@ public class Buscaminas extends JInternalFrame implements GameFunction {
     private boolean gameOver = false;
 
     public Buscaminas() {
-        setTitle("Buscaminas");
+        super("Buscaminas", true, true, true, true);
         setSize(400, 400);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        setVisible(true);
+        setDefaultCloseOperation(JInternalFrame.DISPOSE_ON_CLOSE);
 
         stats = new Stat("score", "player", 0);
 
@@ -30,24 +30,14 @@ public class Buscaminas extends JInternalFrame implements GameFunction {
         setLayout(new GridLayout(rows, cols));
     }
 
-    /*
-    Para los otros juegos, el metodo start se debe de ver algo similar a lo de abajo
-    el jframe se tiene que inicializar y despues se comienza el juego, en ese orden
-     */
     @Override
     public void start() {
         SwingUtilities.invokeLater(() -> {
-            JFrame frame = new JFrame("Buscaminas");
-            frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-            frame.getContentPane().add(this);
-            frame.pack();
-            frame.setLocationRelativeTo(null);
-            frame.setVisible(true);
             initializeButtons();
             placeMines();
+            setVisible(true);
         });
     }
-
 
     private void initializeButtons() {
         for (int i = 0; i < rows; i++) {
@@ -125,8 +115,6 @@ public class Buscaminas extends JInternalFrame implements GameFunction {
         }
         JOptionPane.showMessageDialog(this, "Game Over!");
     }
-
-
 
     @Override
     public Stat getStats() {
